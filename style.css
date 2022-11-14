@@ -1,24 +1,38 @@
-* {
-    box-sizing: border-box;
+
+@import url('https://fonts.googleapis.com/css2?family=Orbitron:wght@400;700&family=Raleway:wght@700&display=swap');
+
+body {
+  background-color: #222629;  
 }
+
+
 
 #heading {
     display: flex;
-    top: 0;
     left: 0;
     background-color: rgba(71, 75, 79, 0.7);
-    align-items: center;
     width: 100%;
-    z-index: 1;
-}
-
-#heading h3 {
-    color: #86C232;
+    z-index: 2;
+    position: absolute;
+    align-items: center;
+    justify-content: space-around;
     
 }
 
 #heading a {
+    right: 5px;
+}
+
+#heading h3 {
+    color: #86C232;
+    font-family: 'Finlandica', sans-serif;
+}
+
+#heading a {
     text-decoration: none;
+    right: 0%;
+    color: white;
+    font-family: 'Raleway', sans-serif;
 }
 
 #cover {
@@ -29,13 +43,16 @@
     width: 100%;
     height: 100%;
     background-color: rgba(0, 0, 0, 0.7);
-    z-index: -1;
+    z-index: 1;
     
 }
 
 #main {
     display: flex;
+    align-items: center;
     justify-content: center;
+    z-index: 1;
+    
 }
 
 h3 {
@@ -50,20 +67,35 @@ h3 {
     left: 0;
     background-position: center;
     background-size: cover;
-    z-index: -1;
+    z-index: 0;
 }
 
 #description {
     height: 80vh;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
     font-size: 50px;
     z-index: 2;
     color: #86C232;
+    align-items: center;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    font-family: 'Finlandica', sans-serif;
+    position: absolute;
+    top: 250px;
 }
 
-
+#click {
+    display: inline-block;
+    margin-top: 25px;
+    border: 2px solid white;
+    padding: 10px 30px;
+    background-color: #4b5163;
+    color: white;
+    border-radius: 10px;
+    font-size: 20px;
+    opacity: 0.8;
+    margin: auto;
+}
 
 #main h2 {
     font-size: 30px;
@@ -73,7 +105,38 @@ h3 {
 
 
 #about {
-    z-index: 2;
-    padding: 50px;
+    z-index: 0;
+    margin: 25px;
+    display: flex;
+   justify-content: space-between;
     text-align: center;
+   border-bottom: white solid;
+   position: relative;
+    top: 777px;
+    left: 0;
+    color: #6b6e6b;
+
+}
+
+#about h4 {
+    color: #86C232;
+    font-family: 'Raleway', sans-serif;
+
+}
+
+#links {
+    display: flex;
+    justify-content: center;
+    margin: 15px;
+    padding: 15px;
+    position: relative;
+    align-items: center;
+    top: 780px;
+}
+
+#links a {
+    color: white;
+    text-decoration: none;
+    margin: 25px;
+    font-size: 100px;
 }
