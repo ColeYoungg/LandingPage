@@ -11,10 +11,52 @@
     <title>Cryptid Report</title>
 </head>
 <body>
-    <section id="describe">
+    <div id="describe">
         <h1>Cryptid Report</h1>
+        <br>
         <a href="index.html">Home</a>
-        <h3>Seen a cryptid and think it's a good job for Guk? Well you've come to the right place! Fill out the information below and submit the report and we'll investigate it in 3-6 business weeks depending on the danger and the location.</h3>
+        <br>
+        <h3>Seen a cryptid and think it's a good job for Guk? Well you've come to the right place! Fill out the information below, and wait. You don't even need to submit, Guk just has nothing better to do and has a live feed of all the forms that are being typed out. As soon as you fill it out Guk will call you and schedule our visit to your local forest/lake/abandoned eastern European factory</h3>
+    </div>
+    
+    <section id="start">
+        <div>
+            <input type="checkbox" id="agree">
+            <label for="agree">I agree to not disclose any information about Guk to any company, government, or individual if asked. I also agree that anything that happens to me during a Cryptid Hunt is not the responsibility of Guk, and that I am void of any 911 services during a hunt.</label>
+            </div>
+            <div>
+            <label for="date">Date of Sighting</label>
+            <input type="date" id="date" value="">
+            </div>
+            <div>
+                <input type="time" id="time">
+                <label for="time">Time of Sighting</label>
+            </div>
+            <div>
+                <label for="area">Location of Sighting (Address, Coordinates, or General Area)</label>
+                <input type="text" id="area">
+            </div>
+        </div>
+    </section>
+    <section id="mid">
+        <h3>Danger Codes</h3>
+        <p id="desc">We use a system of colors to easily prepare for a cryptid encounter, below you will see what a qualities a cryptid must have to receive its color rating</p>
+        <p id="green">Green: The creature is of no physical or mental threat, and is not capable of harming anyone even accidentally</p>
+        <p id="blue">Blue: The creature is not hostile, however it can harm someone either physically or emotionally on accident </p>
+        <p id="yellow">Yellow: The creature is defensive and/or territorial and will harm someone who either comes in proximity to it or in proximity of its territory </p>
+        <p id="orange">Orange: The creature is aggressive and actively hunts humans and/or animals</p>
+        <p id="red">Red: Probably not a good idea to send us instead of the military </p>
+
+        <div>
+            <label for="danger">Danger Code</label>
+            <select name="danger" id="danger">
+                <option value="" disabled selected>Select a Color</option>
+                <option value="green">Green</option>
+                <option value="blue">Blue</option>
+                <option value="yellow">Yellow</option>
+                <option value="yellow">Orange</option>
+                <option value="yellow">Red</option>
+        </div>
     </section>
 </body>
 </html>

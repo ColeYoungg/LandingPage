@@ -20,7 +20,16 @@ body {
 }
 
 #heading a {
-    right: 5px;
+    display: inline-block;
+    margin-top: 25px;
+    border: 2px solid white;
+    padding: 10px 30px;
+    background-color: #474B4F;
+    color: white;
+    border-radius: 10px;
+    font-size: 20px;
+    opacity: 0.8;
+    margin: auto;
 }
 
 #heading h3 {

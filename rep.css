@@ -5,5 +5,73 @@ body {
 }
 
 #describe {
-    
+    border-bottom: white solid 3px;
+    color: #86c232;
+    font-family: 'Finlandica', sans-serif;
+    padding: 10px;
+    left: 20px;
+    text-align: center;
+}
+
+
+#describe h1 {
+    font-size: 50px;
+    text-align: center;
+}
+
+#describe h3 {
+    color: #61892F;
+}
+
+#describe a {
+    display: inline-block;
+    margin-top: 25px;
+    border: 2px solid white;
+    padding: 10px 30px;
+    background-color: #474B4F;
+    color: white;
+    border-radius: 10px;
+    font-size: 20px;
+    opacity: 0.8;
+    margin: auto;
+}
+
+#start div{
+    display: flex;
+    justify-content: left;
+    align-items: center;
+    color: white;
+    font-size: 15px;
+    margin: 20px;
+}
+
+#start {
+    border-bottom: white solid;
+    font-family: 'Raleway', sans-serif;
+}
+
+#mid {
+    font-family: 'Raleway', sans-serif;
+    color: white;
+    border-bottom: white solid;
+}
+
+#green {
+    color: #86c232;
+}
+
+#blue {
+    color: cornflowerblue;
+}
+
+#yellow {
+    color: #fbec5d;
+}
+
+#orange {
+    color: #ffa500;
+}
+
+#red {
+    color: #ff4040;
 }
